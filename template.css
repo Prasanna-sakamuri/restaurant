@@ -1,0 +1,168 @@
+a:hover
+{
+    background-color:green;
+    border: solid black ;
+}
+button:hover
+{
+    background-color:blue;  
+}
+i:hover
+{
+    background-color: lightpink;
+}
+.dishes button{
+display:inline ;
+background-color:lightgrey;
+margin-left: 2%;
+}
+
+a
+{
+    text-decoration:none;
+	margin-left: 1%;
+	font-weight: bold;
+	color:black;
+    padding: 1%;
+    background-color: lightgray;
+}
+
+.nav{
+    border:none;
+    box-shadow: 1px 8px 6px -6px rgba(0, 0, 0, 0.10);
+    padding: 1%;
+
+    
+}
+#home{
+    margin-left: 10%;
+    }
+.home img{
+    border-radius: 50%;
+    margin-left: 8%;
+}
+
+
+.fa-solid{
+    padding:1%;
+    border-radius: 50%;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+    background-color:lightgray;
+    margin-left:1%
+}
+
+.fa-sharp{
+    margin-left: 5%;
+
+}
+.fa-bars{
+    display:none;
+}
+.one{
+    display: flex;
+}
+.two{
+    display: flex;
+}
+.three{
+    display: flex;
+}
+.four{
+    display: flex;
+}
+
+.dishes h4{
+    color: green;
+}
+.dishes button{
+    display: flex;
+}
+.order form{
+    width:90rem;
+    border-radius: -5rem;
+    box-shadow: var(--box-shadow);
+    border:1rem solid rgba(0,0,0,.2);
+    background:#fff;
+    padding:1.5rem;
+    margin:0 auto
+}
+.inputbox{
+    display:flex;
+    margin-left: 2%;
+}
+.inputbox input {
+    background-color:lightgray;
+    
+}
+.inputbox textarea{
+    background-color:lightgray;
+}
+.input span{
+    display:block ;
+}
+.input1 span{
+    display:block;
+}
+.input1{
+    margin-left: 10%;
+}
+::placeholder{
+    color: black;
+}
+.dishes1{
+    display: flex;
+    text-align: center;
+}
+.dishes2{
+    display: flex;
+    text-align: center;
+}
+.dishes div{
+    margin-left: 2%;
+}
+.menu{
+    display: flex;
+}
+.review{
+    display:flex;
+    text-align: center;
+    
+}
+.review div{
+    box-shadow: 5px 10px 8px #888888;
+
+}
+.review img{
+    border-radius: 50%;
+}
+.foot{
+    text-align: center;
+}
+.foot i{
+    border-radius: 50%;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+    background-color:lightgray;
+    padding:1%;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+
+
+
+@media(max-width:750px){
+   #home{
+    margin-left:3% ;
+   }
+   .nav i{
+    display:none;
+   }
+    .nav a{
+        display: block;
+        width:fit-content;
+        margin:10px auto 0 auto;
+        text-align:center;
+        transition:0.5s;
+        margin-left: 3%;
+        }
+    
+}
